@@ -1,14 +1,6 @@
-CS 61 Problem Set 1
-===================
+Memory allocator abilities:
 
-**Fill out both this file and `AUTHORS.md` before submitting.** We grade
-anonymously, so put all personally identifying information, including
-collaborators and citations, in `AUTHORS.md`.
-
-Grading notes (if any)
-----------------------
-
-
-
-Extra credit attempted (if any)
--------------------------------
+Track memory usage statistics.
+Reuse freed memory and avoid memory fragmentation.
+Catch common programming errors, including boundary write errors, invalid frees, and double frees.
+Store allocation metadata directly inside the allocated memory.
